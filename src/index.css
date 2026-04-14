@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-arabic: "Amiri", serif;
+}
+
+.arabic-text {
+  font-family: var(--font-arabic);
+  direction: rtl;
+  text-align: right;
+}
+
+.markdown-body {
+  line-height: 1.8;
+}
+
+.markdown-body p {
+  margin-bottom: 1rem;
+}
+
+.markdown-body h1, .markdown-body h2, .markdown-body h3 {
+  font-weight: bold;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}

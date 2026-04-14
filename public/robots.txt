@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zalemika-mimbar.netlify.app/sitemap.xml
